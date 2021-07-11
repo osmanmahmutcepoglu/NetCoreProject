@@ -15,7 +15,6 @@ namespace Business.DependencyResolvers.AutoFac
         {
             builder.RegisterType<ProductManager>().As<IProductService>().SingleInstance();
             builder.RegisterType<EfProductDal>().As<IProductDal>().SingleInstance();
-
         }
     }
 }
